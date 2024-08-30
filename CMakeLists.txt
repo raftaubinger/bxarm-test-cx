@@ -11,6 +11,8 @@ add_executable(tutorial)
 
 target_sources(tutorial PRIVATE tutorial.c)
 
+target_compile_options(tutorial PRIVATE --no_wrap_diagnostics)
+
 target_link_options(tutorial PRIVATE
   "SHELL:
   --config_def _NEAR_HEAP_SIZE=0
