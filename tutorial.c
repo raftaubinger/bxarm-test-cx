@@ -1,4 +1,5 @@
-int main()
-{
-  return 11;
+#include <stdio.h>
+
+int main() {
+  printf("Hello CodeQL\n");
 }
