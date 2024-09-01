@@ -28,7 +28,7 @@ jobs:
       - name: C-STAT Analysis
         run: |
              ichecks --all --output build/checks.manifest
-             icstat --checks build/checks.manifest --db build/cstat.db analyze -- iccarm tutorial.c
+             icstat --checks build/checks.manifest --db build/cstat.db analyze --sarif_dir build/sarif -- iccarm tutorial.c
 
       - name: Upload SARIF
         uses: github/codeql-action/upload-sarif@v3
