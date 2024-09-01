@@ -11,6 +11,7 @@ jobs:
       security-events: write
       actions: read
       contents: read
+      packages: read
     container:
       image: ghcr.io/fae-emea/bxarm:9.60.2
         
