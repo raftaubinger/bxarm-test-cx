@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//adding iPhone support
 int main() {
-  printf("Hello CodeQL\n");
+  printf("Hello CodeQLM\n");
 }
